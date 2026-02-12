@@ -1,0 +1,24 @@
+{
+	"name": "MkDocs Material editor",
+	"dockerFile": "Dockerfile",
+	"workspaceMount": "source=${localWorkspaceFolder},target=/docs,type=bind",
+	"workspaceFolder": "/docs",
+    "customizations": {
+        "vscode": {
+            "settings": {
+                "terminal.integrated.shell.linux": "/bin/sh",
+                "python.terminal.activateEnvironment": true,
+                "python.terminal.activateEnvInCurrentTerminal": true,
+                "python.defaultInterpreterPath": "${workspaceFolder}/.venv/bin/python"
+            },
+            "extensions": [
+                "davidanson.vscode-markdownlint"
+            ]
+        }
+        
+    },
+	"forwardPorts": [
+		8000
+	],
+    "postAttachCommand": "(test -d .venv || python -m venv .venv) && .venv/bin/python -m pip install -r requirements.txt"
+}

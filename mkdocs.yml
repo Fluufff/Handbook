@@ -1,0 +1,9 @@
+site_name: Fluufff IT
+
+theme:
+  name: terminal
+  palette: gruvbox_dark
+
+# site_url: https://mydomain.org/mysite
+# theme:
+#   name: material

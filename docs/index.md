@@ -1,17 +1,11 @@
-# Welcome to MkDocs
+# Welcome to IT
 
-For full documentation visit [mkdocs.org](https://www.mkdocs.org).
+This is the internal handbook for the Fluufff IT team.
 
-## Commands
+It is intended to serve its members a reference and guide to the ways of working, and where to find things.
 
-* `mkdocs new [dir-name]` - Create a new project.
-* `mkdocs serve` - Start the live-reloading docs server.
-* `mkdocs build` - Build the documentation site.
-* `mkdocs -h` - Print help message and exit.
+The handbook is open to anyone to see.
 
-## Project layout
+## How to contact us
 
-    mkdocs.yml    # The configuration file.
-    docs/
-        index.md  # The documentation homepage.
-        ...       # Other markdown pages, images and other files.
+## Important Links

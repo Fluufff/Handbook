@@ -1,9 +1,17 @@
 site_name: Fluufff IT
 
+repo_url: https://github.com/Fluufff/handbook 
+edit_uri: edit/main/docs/
+
 theme:
   name: terminal
   palette: gruvbox_dark
+  features:
+  - revision.date
+  - revision.history
+  - footer.prev_next
+  - navigation.side.indexes
 
-# site_url: https://mydomain.org/mysite
-# theme:
-#   name: material
+plugins:
+- search
+- git-revision-date

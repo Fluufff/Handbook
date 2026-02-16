@@ -2,6 +2,8 @@
 
 ## Design for the end user
 
+Don't lie to your audience.
+
 ## Experiments & Two-way doors
 
 ## Eat your own dogfood
